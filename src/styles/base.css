@@ -5,4 +5,25 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Sidebar text wrapping utilities */
+  .sidebar-text-truncate {
+    @apply truncate min-w-0;
+  }
+
+  .sidebar-text-ellipsis {
+    @apply overflow-hidden whitespace-nowrap text-ellipsis;
+  }
+
+  .sidebar-brand-text {
+    @apply truncate min-w-0 flex-1;
+  }
+
+  .sidebar-nav-text {
+    @apply truncate min-w-0 flex-1;
+  }
+
+  .sidebar-user-text {
+    @apply truncate min-w-0 w-full;
+  }
 }
